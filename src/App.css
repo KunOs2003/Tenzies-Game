@@ -1,0 +1,70 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(88, 146, 177);
+  height: 500px;
+  width: 600px;
+  border: 30px solid #8ABAD3FF;
+  margin: 80px auto 0 auto;
+  background-color: #FCF6F5FF;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px 1px rgb(161, 159, 159);
+}
+main {
+  background-color: #FCF6F5FF;
+  height: 515px;
+  width: 615px;
+  border-radius: 20px;
+  margin: -8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dice-container {
+  display: grid;
+  grid-template: auto auto/ repeat(5,1fr);
+  margin-left: 50px;
+}
+
+.dice--num {
+  text-align: center;
+  background-color: white;
+  width: 30px;
+  padding: 5px 14px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 3px 0.1px rgb(177, 174, 174);
+}
+
+.win--title {
+  position: absolute;
+  font-size: 50px;
+  top: 20%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.game--title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.game--description {
+  text-align: center;
+  font-size: 20px;
+}
+
+.roll--dice {
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  background-color: #8ABAD3FF;
+  color: white;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+
+.creator--span {
+  text-align: center;
+}
